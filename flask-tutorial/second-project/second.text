@@ -1,0 +1,12 @@
+!DOCTYPE html - DOCTYPE tells the browser that is a html file
+lang='en' - English language
+<h1></h1> - Big heading
+<p></p> - paragraph
+<form></form> - input section from the user
+<input> - Field for typing
+<button></button> - a clickable button
+<img>  - shows an image
+
+FORMS
+
+

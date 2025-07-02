@@ -1,0 +1,17 @@
+JINJA2
+1- Python values
+{{variable}}
+
+{{name}}
+
+<P>Wellcome {{name}}</P>
+
+
+2. conditionals
+is_topper = TRue
+{% if is_topper %}
+<p>You are a topper</p>
+{% else %}
+<p>You need to work</p>
+{% endif %}
+

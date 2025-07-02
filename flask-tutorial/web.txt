@@ -1,0 +1,100 @@
+your browser - website button/forms - clickthe button and submit - request - flask route - server - response(HTML, page, data)
+
+
+just like restaurant 
+restaurant - you(the customer) - menu - make a order - order - waiter - chef(server/backend logic) - food
+
+
+website has two parts
+1. frontend - html, css, javascript - client side
+2. backend - python, flask, server - server side
+
+
+
+HTTP - Hypertext Transfer Protocol - protocol for communication between client and server.
+HTTP is a stateless protocol.
+HTTP is a request-response protocol.
+HTTP is a client-server protocol.
+HTTP is a request-response protocol.
+
+HTTPS - Hypertext Transfer Protocol Secure - protocol for communication between client and server.
+HTTPS is a stateless protocol.
+HTTPS is a request-response protocol.
+HTTPS is a client-server protocol.
+HTTPS is a request-response protocol.
+HTTPS is a secure protocol.
+
+when you click google.com in your browser, your browser sends a request to google.com's server for the HTML page.
+google.com's server sends the HTML page back to your browser.
+your browser renders the HTML page and displays it on your screen.
+
+
+your browser sends a request to google.com's server for the CSS file.
+google.com's server sends the CSS file back to your browser.
+your browser renders the CSS file and displays it on your screen.
+
+
+URL(inside the request) - Uniform Resource Locator - address of a resource on the internet.
+URL is a string of characters that identifies a resource on the internet.
+
+
+inside the response there is HTML page, CSS file, JavaScript file, images, etc.
+
+
+what is status code - whenever there is a response it comes with a status code
+status code - 200 - OK - everything went well
+status code - 404 - Not Found - page does not exist
+status code - 500 - Internal Server Error - server crashed or there is a bug
+status coce - 301 - moved permanently - the page has movedto another URL
+status code - 403 - forbidden - You are not allowed to see this
+
+
+
+browser - client(chrome, firefox) - sends a request and get the response
+URL - web address .let say https://www.amazon.com/products/s?k=products ,  In this www - subdomain, amazon.com - domain name, products- specific page
+
+
+real life example
+restaurant = website
+you = browser
+rest address = URL
+waiter = request
+kitchen = server
+cook = backend code
+meal = response
+bill/receipt = status code
+
+
+What does Flask do for us?
+@app.route - return HTML
+flask reads the input for you
+flask helps you build pages using templates
+flask helps to track users
+flasks works with tools to store
+
+
+127.0.0.1.5000 - IP address
+
+5000 - port number
+127.0.0.1 = localhost
+
+
+routes are always unique .make a readable name.every route should return response
+
+real life of example of get post - let say ask information about the order - get
+in get method .you dont send any information
+when i ask the manager that i have filled a form of your company opening and make the process method complete - post
+in post server does something yuour send data 
+
+in syntax get, post should be always capitalized like GET, POST
+
+
+request - readswhat the user sends - example request.form["name"]
+
+response - send something back to the user - example return Response
+
+redirect - move the user to the different page - example redirect("/thank-you")
+
+url_for - build sa route dunamically from the function name -example url_for("home")
+
+session - remember user info across pages - example session["username"] = "ritam"

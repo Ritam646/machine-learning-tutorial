@@ -1,0 +1,1 @@
+there will be one base html file and we will different html file and we took a content/property of one html to multiple html file
