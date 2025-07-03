@@ -1,0 +1,4 @@
+it ha s two types manual foorm handling and flask-WTF
+
+
+manual form handling with request.form
